@@ -9,6 +9,7 @@
 #include <stddef.h>
 
 void dbgPrintHex(void* data, size_t len);
+void dbgHexDump(const void *buffer, size_t length);
 
 #endif // DBGC_DBGC_H
 
